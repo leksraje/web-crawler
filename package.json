@@ -1,0 +1,30 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Project to crawl through the given website and create a sitemap",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    src="test/web-crawler-service-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\t"
+  },
+  "keywords": [
+    "CRAWLER",
+    "SITEMAP"
+  ],
+  "author": "LeksRaje",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest",
+    "url-parse": "^1.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
