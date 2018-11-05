@@ -1,12 +1,11 @@
-node-web-scraper
+web-crawler
 ================
 
-Simple web scraper to get a movie name, release year and community rating from IMDB.
-To run this example use the following commands:
+Simple web crawler to crawl through through the website of your choice. Simply run the following command and enter the website url at command prompt.
 
 ``` shell
 $ npm install
-$ node server.js
+$ node index.js
 ```
 
- Then it will start up our node server, navigate to http://localhost:8081/scrape and see what happens.
+ Then prompt for a url of the website to crawl and the result will be stored in sitemap.txt in root directory.
